@@ -25,9 +25,9 @@ To get started and run the app, you need to follow these simple steps:
 3. Change the project name in **.firebaserc** file.
 4. Go to [Firebase Console](https://console.firebase.google.com), select your project, choose "Authentication" from left menu, select "SIGN-IN METHOD" and enable "Google Sign in" option. 
 5. Set rules for Cloud Firestore 
-    `rules_version = '2';
-    service cloud.firestore {
-      match /databases/{database}/documents {
+    ```rules_version = '2';
+        service cloud.firestore {
+        match /databases/{database}/documents {
 
         match /{documents=**} {
           allow read, write: if true;
@@ -50,7 +50,7 @@ To get started and run the app, you need to follow these simple steps:
         }
       }
     }
-    `
+    ```
 6. You're all set! Build your app `npm run build` and deploy it on firebase using `firebase deploy`.
 
 ### Contributing
