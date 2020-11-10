@@ -4,7 +4,7 @@
 
 To get started and run the app, you need to follow these simple steps:
 
-1. Clone and then fork this repo on your machine locally.
+1. [Fork](https://github.com/nandkk05/superchat-web-app/fork) and then clone this repo on your machine locally.
    `git clone https://github.com/nandkk05/superchat-web-app`
 2. `cd superchat-web-app`
 3. `npm install` for installing all dependencies and `cd functions` then again run `npm install` + `npm install bad-words --save`
@@ -55,11 +55,11 @@ To get started and run the app, you need to follow these simple steps:
 
 ### Contributing
 
-Awesome! Contributions of all kinds are greatly appreciated.
+* Awesome! Contributions of all kinds are greatly appreciated.
 
 ### Using GitHub Issues
 
-- Feel free to use GitHub issues for questions, bug reports, and feature requests
+* Feel free to use GitHub issues for questions, bug reports, and feature requests
 
 ### Maintainer
 
